@@ -1,0 +1,66 @@
+/* Umumiy uslub */
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.answer-box {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.answer-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.answer-text {
+  margin: 0;
+  color: #555;
+}
+
+/* Media Query: 600px elgacha uslub */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .answer-box {
+    padding: 8px;
+  }
+
+  .answer-title {
+    font-size: 16px;
+  }
+
+  .answer-text {
+    font-size: 14px;
+  }
+}
