@@ -37,7 +37,7 @@ h1 {
 }
 
 /* Media Query: 600px elgacha uslub */
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .container {
     padding: 10px;
   }
